@@ -147,14 +147,29 @@ html {
 </head>
 <body>
 
-  <section id='about' class="about-section">
+  <section id="about" class="about-section">
     <div class="container">
-      <h2>About Me</h2>
-      <img src="images/about/profile.jpg" alt="About Me">
-      <p>I am a web developer with a Bachelor's degree in Information and Communication Technology with Education from Copperbelt University. Since July 2023, I have been working as a developer at The University of Zambia, where I develop systems using PHP, Laravel, Yii2, Java, and MySQL. I have obtained multiple certifications in Python and Django from LinkedIn, demonstrating my proficiency and interest in these technologies. Additionally, I hold the Google IT Support Professional Certificate, earned in 2023.</p>
-      <p>In addition to my work as a developer, I am also learning data science on Datacamp. In my current role, I perform thorough user acceptance testing, write technical documentation and user guide manuals, work with server administration, and conduct end user training sessions for the systems I develop. I follow agile methodologies and collaborate with other developers and stakeholders to deliver high-quality and user-friendly solutions. I am passionate about learning new skills and tools, solving problems, and creating impactful and innovative products. I believe I can bring diverse perspectives and experiences to the team, as well as a strong work ethic, a growth mindset, and a commitment to excellence.</p>
+      <h2 class="text-center">About Me</h2>
+      <div class="profile-container text-center">
+        <img src="images/about/profile.jpg" alt="Profile Picture" class="profile-image rounded-circle">
+      </div>
+      <div class="bio mt-4">
+        <p>
+          As a dedicated web developer, I hold a Bachelor's degree in <strong>Information and Communication Technology with Education</strong> from the esteemed <strong>Copperbelt University</strong>. My journey at The University of Zambia began in July 2023, where I craft innovative systems utilizing a robust tech stack including PHP, Laravel, Yii2, Java, and MySQL.
+        </p>
+        <p>
+          My commitment to continuous learning is evidenced by multiple certifications from LinkedIn, Coursera, IBM and Data Campu and the prestigious <strong><em>Google IT Support Professional Certificate</em></strong>, acquired in 2023.
+        </p>
+        <p>
+          In my current role, I perform thorough user acceptance testing, write technical documentation and user guide manuals, work with server administration, and conduct end-user training sessions for the systems I develop. I follow agile methodologies and collaborate with other developers and stakeholders to deliver high-quality and user-friendly solutions.
+        </p>
+        <p>
+          I am passionate about learning new skills and tools, solving problems, and creating impactful and innovative products. I believe I can bring diverse perspectives and experiences to the team, as well as a strong work ethic, a growth mindset, and a commitment to excellence.
+        </p>
+      </div>
     </div>
   </section>
+  
   
 <!-- Projects Section -->
 <section id="projects" class="projects-section bg-light" id="projects">
@@ -168,7 +183,7 @@ html {
           <div class="card-body">
             <h5 class="card-title">Community management</h5>
             <p class="card-text">This project is website for the ward. Where the ward executive members can share their projects and information to a community etc.</p>
-            <a href="#" class="btn btn-primary">Blog Post</a>
+            <!-- <a href="#" class="btn btn-primary">Blog Post</a> -->
             <a href="#" class="btn btn-secondary">Source Code</a>
           </div>
         </div>
@@ -180,7 +195,7 @@ html {
           <div class="card-body">
             <h5 class="card-title">First personal Portfolio</h5>
             <p class="card-text">I did this project in html, css, JavaScript in 2020, when I was second year..</p>
-            <a href="#" class="btn btn-primary">Blog Post</a>
+            <!-- <a href="#" class="btn btn-primary">Blog Post</a> -->
             <a href="#" class="btn btn-secondary">Source Code</a>
           </div>
         </div>
@@ -190,10 +205,8 @@ html {
         <div class="card">
           <img src="images/projects/3.jpg" class="card-img-top" alt="Project 3">
           <div class="card-body">
-            <h5 class="card-title">Project 3</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
-            <a href="#" class="btn btn-primary">Blog Post</a>
-            <a href="#" class="btn btn-secondary">Source Code</a>
+            <h5 class="card-title">Private projects</h5>
+            <p class="card-text">Some projects I can't share here.</p>
           </div>
         </div>
       </div>
@@ -204,57 +217,162 @@ html {
 
 
 <!-- Skills Section -->
-<section id="skills" class="skills-section bg-white" id="skills">
+<section id="skills" class="skills-section bg-white">
   <div class="container">
     <h2 class="text-center">Skills</h2>
     <div class="row">
-      <!-- Skill 1 -->
+      <!-- PHP -->
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
-          <img src="images/skills/1.png" class="card-img-top" alt="Python">
+          <img src="images/skills/php.jpeg" class="card-img-top" alt="PHP">
+          <div class="card-body">
+            <h5 class="card-title">PHP</h5>
+            <p class="card-text">Proficient in PHP programming language for web development.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Java -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/java.jpeg" class="card-img-top" alt="Java">
+          <div class="card-body">
+            <h5 class="card-title">Java</h5>
+            <p class="card-text">Experienced in Java programming language for backend development.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Git and GitHub -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/git.jpeg" class="card-img-top" alt="Git and GitHub">
+          <div class="card-body">
+            <h5 class="card-title">Git and GitHub</h5>
+            <p class="card-text">Proficient in version control using Git and collaboration with GitHub.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Yii2 Framework -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/yii.jpeg" class="card-img-top" alt="Yii2 Framework">
+          <div class="card-body">
+            <h5 class="card-title">Yii2 Framework</h5>
+            <p class="card-text">Skilled in Yii2 framework for building web applications.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Laravel -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/laravel.jpeg" class="card-img-top" alt="Laravel">
+          <div class="card-body">
+            <h5 class="card-title">Laravel</h5>
+            <p class="card-text">Experienced in Laravel framework for developing modern web applications.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Linux -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/linux.jpeg" class="card-img-top" alt="Linux">
+          <div class="card-body">
+            <h5 class="card-title">Linux</h5>
+            <p class="card-text">Proficient in Linux operating system for server administration.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Data Science -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/datas.jpeg" class="card-img-top" alt="Data Science">
+          <div class="card-body">
+            <h5 class="card-title">Data Science</h5>
+            <p class="card-text">Currently learning Data Science concepts and techniques on DataCamp.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Teaching -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/teaching.jpeg" class="card-img-top" alt="Teaching">
+          <div class="card-body">
+            <h5 class="card-title">Teaching</h5>
+            <p class="card-text">Skilled in conducting training sessions and workshops.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Photoshop -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/photo.jpeg" class="card-img-top" alt="Photoshop">
+          <div class="card-body">
+            <h5 class="card-title">Photoshop</h5>
+            <p class="card-text">Proficient in Adobe Photoshop for graphic design and image editing.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Figma -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/figma.jpeg" class="card-img-top" alt="Figma">
+          <div class="card-body">
+            <h5 class="card-title">Figma</h5>
+            <p class="card-text">Experienced in using Figma for UI/UX design and prototyping.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/python.png" class="card-img-top" alt="Python">
           <div class="card-body">
             <h5 class="card-title">Python</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
-            <a href="#" class="btn btn-outline-primary">Link to course or bootcamp</a>
+            <p class="card-text">Proficient in Python programming language for various applications.</p>
           </div>
         </div>
       </div>
-      <!-- Skill 2 -->
+      <!-- Data Visualization -->
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
-          <img src="images/skills/2.png" class="card-img-top" alt="Data Visualization">
+          <img src="images/skills/visual.png" class="card-img-top" alt="Data Visualization">
           <div class="card-body">
             <h5 class="card-title">Data Visualization</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
-            <a href="#" class="btn btn-outline-primary">Link to course or bootcamp</a>
+            <p class="card-text">Skilled in creating visual representations of data using various tools and libraries.</p>
           </div>
         </div>
       </div>
-      <!-- Skill 3 -->
+      <!-- Data Manipulation -->
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
-          <img src="images/skills/3.png" class="card-img-top" alt="SQL">
+          <img src="images/skills/manipulation.png" class="card-img-top" alt="Data Manipulation">
+          <div class="card-body">
+            <h5 class="card-title">Data Manipulation</h5>
+            <p class="card-text">Experienced in manipulating and analyzing data to derive insights and make data-driven decisions.</p>
+          </div>
+        </div>
+      </div>
+      <!-- SQL -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/sql.jpeg" class="card-img-top" alt="SQL">
           <div class="card-body">
             <h5 class="card-title">SQL</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
-            <a href="#" class="btn btn-outline-primary">Link to course or bootcamp</a>
+            <p class="card-text">Proficient in SQL for database management and querying.</p>
           </div>
         </div>
-      </div>
-      <!-- Skill 4 -->
+      </div> 
       <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/4.png" class="card-img-top" alt="Data Storytelling">
-          <div class="card-body">
-            <h5 class="card-title">Data Storytelling</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
-            <a href="#" class="btn btn-outline-primary">Link to course or bootcamp</a>
+        <div class="card h-100">
+          <img src="images/skills/security.jpeg" class="card-img-top" alt="Cyber Security">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Cyber Security Fundamentals</h5>
+            <p class="card-text mt-auto">An introduction to the foundational concepts of cyber security, covering essential knowledge for protecting networks and data from cyber threats.</p>
           </div>
         </div>
-      </div>
+      </div>      
     </div>
   </div>
 </section>
+
 <!-- CV Section -->
 <section id="cv" class="cv-section bg-light py-5">
   <div class="container text-center">
@@ -297,11 +415,17 @@ html {
         </a>
       </div>
       <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://www.facebook.com/jevis.bwalya/" target="_blank">
+          <img src="icons/facebook.jpeg" alt="Facebook" class="social-icon">
+          Facebook
+        </a>
+      </div>
+      <!-- <div class="col-lg-2 col-md-4 mb-4">
         <a href="https://medium.com/@jevis" target="_blank">
           <img src="icons/medium.png" alt="Medium" class="social-icon">
           Medium
         </a>
-      </div>
+      </div> -->
       <!-- <div class="col-lg-2 col-md-4 mb-4">
         <a href="https://youtube.com/c/yourchannel" target="_blank">
           <img src="icons/youtube.png" alt="YouTube" class="social-icon">
