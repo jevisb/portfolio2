@@ -20,7 +20,7 @@ Welcome to my portfolio repository! This repository contains the code for my per
 
 ## Usage
 
-To view my portfolio website, simply visit [https://example.com](https://example.com).
+To view my portfolio website, simply visit ([https://jevisb.github.io/portfolio2/]).
 
 ## Contributing
 
